@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/RisingGoldSun.jpg");
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw;
+    height: 90vh;
+    gap: 20px;
+}
+
+.temperature {
+    width: 400px;
+    height: 200px;
+    margin-top: 10px;
+    background: radial-gradient(circle, rgba(0,212,255,1) 24%, rgba(104,97,232,1) 84%);
+    border: 4px solid white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+.temperature > p {
+    width: 40%;
+    align-self: flex-end;
+    text-align: end;
+}
+
+.temperature > h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.bloctpressentie {
+    width: 50%;
+    align-self: flex-end;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    padding-top: 5px;
+}
+
+.temps {
+    height: 100%;
+    width: 40%;
+    background-color: aliceblue;
+}
+
+.afftemp {
+    font-size: 5em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.tpressentie {
+    width: 40%;
+}
+
+.weather {
+    width: 400px;
+    height: 200px;
+    margin-top: 10px;
+    background: radial-gradient(circle, rgba(0,212,255,1) 24%, rgba(104,97,232,1) 84%);
+    border: 4px solid white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.weather > h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.weather > div {
+    display: flex;
+}
+
+.globalmeteo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.textmeteo {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.imgmeteo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.imgmeteo > img {
+    height: 100px;
+}
+
+.fleche {
+    display: flex;
+    justify-content: center;
+}
+
+.fleche > img {
+    height: 50px;
+    margin-top: 20px;
+}
+
+.textvent {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+.temperature2 {
+    width: 400px;
+    height: 20px;
+    margin-top: 10px;
+    background: radial-gradient(circle, rgba(0,212,255,1) 24%, rgba(104,97,232,1) 84%);
+    border: 4px solid white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+}
+
+.temperature2 > input {
+    background-color: #00d4ff;
+}
+
+.ville2 {
+    font-size: 2em;
+    margin-top: 10px;
+    text-align: center;
+}
+

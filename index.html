@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="/assets/style.css">
+    <title>Meteo</title>
+</head>
+<body>
+
+    <div class="temperature2">
+        <input type="text" id="inputville" required>
+    </div>
+
+    <div class="container">
+        <div class="temperature">
+            <h2>Température à <span class="ville"></span></h2>
+            <div>
+                <p class="afftemp"></p>
+            </div>
+            <p>Température ressentie</p>
+            <div class="bloctpressentie">
+                <p class="tpressentie"></p>
+            </div>
+        </div>
+        <div class="weather">
+            <h2>Météo</h2>
+
+            <div class="globalmeteo">
+                <div>
+                    <div class="meteo">
+                        <p class="textmeteo"></p>
+                    </div>
+                    
+                    <div class="imgmeteo">
+                        <img>
+                    </div>
+                </div>
+
+                <div class="vent">
+                    <div class="textvent">
+                        <p class="sensvent">Vent <span class="orientvent"></span> <br> avec une force de <span class="forcevent"></span> km/h</p>
+                    </div>
+                    <div class="fleche"> <img src="assets/img/right-arrow.png" alt="vent"> </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="assets/axios.js"></script>
+</body>
+</html>
